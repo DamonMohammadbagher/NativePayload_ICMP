@@ -100,7 +100,7 @@ namespace NativePayload_ICMP
                         {
                             try
                             {                               
-                                byte[] Xbytes = UnicodeEncoding.UTF8.GetBytes(args[1]);                               
+                                byte[] Xbytes = ASCIIEncoding.ASCII.GetBytes(args[1]);                               
                                 foreach (var item in Xbytes)
                                 {
                                     payload += item.ToString("x2");
@@ -268,7 +268,7 @@ namespace NativePayload_ICMP
                                             i++;
                                         }
 
-                                        Console.Write("  ==> " + UTF8Encoding.ASCII.GetString(String_from_Bytes));
+                                        Console.Write("  ==> " + ASCIIEncoding.ASCII.GetString(String_from_Bytes));
                                         Timer_Time_Show_Bytes = 0;
                                         String_two_Bytes = "";
                                         Console.WriteLine();
