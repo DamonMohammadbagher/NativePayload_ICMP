@@ -12,6 +12,8 @@ NativePayload_ICMP.sh  "w.x.y.z"
 
 "w.x.y.z" is TargetIPv4 to Listening , it means your system will send Ping request to This IPv4 to Listening TTL values from Ping Respnse.  you can use this Script with "Script.sh" file and this file should Created by NativePayload_ICMP.exe command via this syntax :
 
+Note: Sleep time in your "script.sh" source should be "2" or "3" always , Recommended : sleep 2;
+
 Syntax : NativePayload_ICMP.exe  shtext  "your text or string"
 
 after this step you will have Script.sh file then you can use that from "Client side" after this step then you can use (NativePayload_ICMP.sh  "w.x.y.z" ) from "Server side"  to send Ping Request to "Client Side":
