@@ -20,8 +20,8 @@ step 0 (windows side) : NativePayload_ICMP.exe shtext "your test text or String"
 
 Note: with "step0" you will have new Script File with name "Script.sh" .
 
-step 1 (client side) with IPv4 (192.168.10.10) : ./script.sh
+step 1 (client side , linux system A) with IPv4 (192.168.10.10) : ./script.sh
 
-step 2 (server side) : ./NativePayload_ICMP.sh  "192.168.10.10" 
+step 2 (server side , linux system B) : ./NativePayload_ICMP.sh  "192.168.10.10" 
 
 Note: "Step 2" should run after "Step 1" immediately after "2 or 3" seconds 
