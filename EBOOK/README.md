@@ -16,7 +16,7 @@ Note: Sleep time in your "script.sh" source should be "2" or "3" always , Recomm
 
 Syntax : NativePayload_ICMP.exe  shtext  "your text or string"
 
-after this step you will have Script.sh file then you can use that from "Client side" after this step then you can use (NativePayload_ICMP.sh  "w.x.y.z" ) from "Server side"  to send Ping Request to "Client Side":
+after this step you will have Script.sh file then you can use this on "Client side" . now you can use (NativePayload_ICMP.sh  "w.x.y.z" ) on "Server side"  to send Ping Request to "Client Side":
 
 step 0 (windows side) : NativePayload_ICMP.exe shtext "your test text or String"
 
