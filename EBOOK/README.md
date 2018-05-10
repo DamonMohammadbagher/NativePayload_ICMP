@@ -18,7 +18,7 @@ Syntax : NativePayload_ICMP.exe  shtext  "your text or string"
 
 after this step you will have Script.sh file then you can use this on "Client side" . now you can use (NativePayload_ICMP.sh  "w.x.y.z" ) on "Server side"  to send Ping Request to "Client Side":
 
-step 0 (windows side) : NativePayload_ICMP.exe shtext "your test text or String"
+step 0 (windows side) : NativePayload_ICMP.exe shtext "your text or String"
 
 Note: with "step0" you will have new Script File with name "Script.sh" .
 
