@@ -10,7 +10,7 @@ NativePayload_ICMP.exe  help
 
 NativePayload_ICMP.sh  "w.x.y.z" 
 
-"w.x.y.z" is TargetIPv4 to Listening , it means your system will send Ping request to This IPv4 to Listening TTL values from Ping Respnse.  you can use this Script with "Script.sh" file and this file should Created by NativePayload_ICMP.exe command via this syntax :
+"w.x.y.z" is TargetIPv4 to Listening , it means your system will send Ping request to This IPv4 to Listening/Dumping TTL values from Ping Response.  you can use this Script with "Script.sh" file and this file should Created by NativePayload_ICMP.exe command via this syntax :
 
 Note: Sleep time in your "script.sh" source should be "2" or "3" always , Recommended : sleep 2;
 
