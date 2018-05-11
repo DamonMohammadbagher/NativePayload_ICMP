@@ -1,6 +1,6 @@
 # NativePayload_ICMP  v2.0 
 
-NativePayload_ICMP  v2.0 C# Code Released for Ebook.
+NativePayload_ICMP  v2.0 C# Code Released for Ebook. (bug fixed) ;D
 
 1. NativePayload_ICMP.exe help :
 
