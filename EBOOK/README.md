@@ -40,4 +40,6 @@ step 1-2 (server side with IPv4 192.168.56.13) : NativePayload_ICMP.exe  listen 
 
 Note: you should execute "step1-2" , immediately after 2 or 3 seconds.
 
+Picture for Demo 2 :
+![](https://github.com/DamonMohammadbagher/NativePayload_ICMP/blob/master/EBOOK/NativePayload_ICMP.png)
 
