@@ -2,7 +2,7 @@
 
 NativePayload_ICMP  v2.0 C# Code Released for Ebook.
 
-1. NativePayload_ICMP.exe syntax :
+1. NativePayload_ICMP.exe help :
 
 NativePayload_ICMP.exe  help  
 
