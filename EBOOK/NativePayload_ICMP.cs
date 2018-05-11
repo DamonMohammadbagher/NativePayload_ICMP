@@ -252,7 +252,7 @@ namespace NativePayload_ICMP
                             Last_ttl_str = getcode;
                             flag_end_count = 0;
                           
-                            if (getcode != temp && getcode != "255")
+                            if (getcode != temp && getcode != "255" && getcode != "253")
                             {
                                 if (init && getcode != "254")
                                 {
@@ -380,7 +380,7 @@ namespace NativePayload_ICMP
                         {
                             Last_ttl_str = getcode;
                             flag_end_count = 0;
-                            if (getcode != temp && getcode != "255")
+                            if (getcode != temp && getcode != "255" && getcode != "253")
                             {
                                 if (init && getcode != "254")
                                 {
