@@ -47,7 +47,7 @@ Meterpreter Payload is 510 bytes
 
 # NativePayload_ICMP v2.0
 
-NativePayload_ICMP v2.0 C# Code Released for Ebook. (May 2018 , bug fixed).
+"NativePayload_ICMP.exe" v2.0 C# Code and Shell Script "NativePayload_ICMP.sh" v1.0 Released for Ebook. (May 2018 , bug fixed).
 
     NativePayload_ICMP.exe help :
 
