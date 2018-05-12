@@ -4,7 +4,7 @@
 
     NativePayload_ICMP.exe help  syntax :  NativePayload_ICMP.exe help
 
-    NativePayload_ICMP.sh v1.0 "test version" syntax: 
+    NativePayload_ICMP.sh v1.0 syntax: 
     step0 Client-Side with ipv4 w.x.y.z , syntax :./NativePayload_ICMP.sh shtext "your text or string"
     step1 Server-Side with ipv4 w1.x1.y1.z1 syntax :./NativePayload_ICMP.sh listen "w.x.y.z"
     Note: in step1 you should use Client-side system w.x.y.z IPv4Address
