@@ -6,7 +6,7 @@ NativePayload_ICMP  v2.0 C# Code Released for Ebook. (bug fixed) ;D
 
 NativePayload_ICMP.exe  help  
 
-2. NativePayload_ICMP.sh  "test version"  syntax:
+2. NativePayload_ICMP.sh  v1.0 "test version"  syntax:
 
 step0 Client-Side with ipv4 w.x.y.z , syntax :./NativePayload_ICMP.sh shtext "your text or string"
 
@@ -32,7 +32,7 @@ step 1-2 (server side with IPv4 192.168.56.13) : ./NativePayload_ICMP.sh  listen
 
 Note: you should execute "step1-2" , immediately after 2 or 3 seconds.
 
-# 3.Demo step by step (windws and linux):
+# 3.Demo step by step (windows and linux):
 
 step 1 (client side with IPv4 192.168.56.10): ./NativePayload_ICMP.sh  shtext  "it's all inside of me it's all inside of you ... you will see"
 
