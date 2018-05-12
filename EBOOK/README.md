@@ -2,7 +2,7 @@
 
 "NativePayload_ICMP.exe" v2.0 C# Code and Shell Script "NativePayload_ICMP.sh" v1.0 Released for Ebook. (May 2018 , bug fixed).
 
-    NativePayload_ICMP.exe help :  NativePayload_ICMP.exe help
+    NativePayload_ICMP.exe help  syntax :  NativePayload_ICMP.exe help
 
     NativePayload_ICMP.sh v1.0 "test version" syntax: 
     step0 Client-Side with ipv4 w.x.y.z , syntax :./NativePayload_ICMP.sh shtext "your text or string"
