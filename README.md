@@ -1,6 +1,9 @@
 # NativePayload_ICMP v1.0
 C# code Published by Damon Mohammadbagher
 
+Article step by step : https://www.peerlyst.com/posts/transfer-download-payload-by-icmpv4-traffic-via-ttl-damon-mohammadbagher
+
+
 NativePayload_ICMP : transfer Backdoor Payloads by ICMPv4 Traffic and bypassing Anti-Viruses
 
 Tested : Win7 SP1 and Win 2008 R2
