@@ -2,6 +2,8 @@
 
 "NativePayload_ICMP.exe" v2.0 C# Code and Shell Script "NativePayload_ICMP.sh" v1.0 Released for Ebook. (May 2018 , bug fixed).
 
+Article step by step : https://www.peerlyst.com/posts/transfer-download-payload-by-icmpv4-traffic-via-ttl-damon-mohammadbagher
+
     NativePayload_ICMP.exe v2.0 syntax: 
     NativePayload_ICMP.exe help
 
