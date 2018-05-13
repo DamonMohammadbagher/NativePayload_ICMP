@@ -16,7 +16,7 @@ do
         100)
  tput setaf 2; 
         echo "[$Time]" "Dumped Byte via TTL : 0"
-	if [ "$temp" != $'100' ] ;
+	if (( $temp != 100 )) ;
 	then
 	payload+="0"
 	fi
@@ -24,7 +24,7 @@ do
         101)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 1"
-	if [ "$temp" != $'101' ] ;
+	if (( $temp != 101 )) ;
 	then
 	payload+="1"
 	fi
@@ -32,7 +32,7 @@ do
         102)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 2"
-	if [ "$temp" != $'102' ] ;
+	if (( $temp != 102 )) ;
 	then
 	payload+="2"
 	fi	
@@ -40,7 +40,7 @@ do
         103)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 3"
-	if [ "$temp" != $'103' ] ;
+	if (( $temp != 103 )) ;
 	then
 	payload+="3"
 	fi
@@ -48,7 +48,7 @@ do
         104)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 4"
-	if [ "$temp" != $'104' ] ;
+	if (( $temp != 104 )) ;
 	then
 	payload+="4"
 	fi
@@ -56,7 +56,7 @@ do
         105)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 5"
-	if [ "$temp" != $'105' ] ;
+	if (( $temp != 105 )) ;
 	then
 	payload+="5"
 	fi
@@ -64,7 +64,7 @@ do
         106)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 6"
-	if [ "$temp" != $'106' ] ;
+	if (( $temp != 106 )) ;
 	then
 	payload+="6"
 	fi
@@ -72,7 +72,7 @@ do
         107)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 7"
-	if [ "$temp" != $'107' ] ;
+	if (( $temp != 107 )) ;
 	then
 	payload+="7"
 	fi
@@ -80,7 +80,7 @@ do
         108)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 8"
-	if [ "$temp" != $'108'] ;
+	if (( $temp != 108 )) ;
 	then
 	payload+="8"
 	fi
@@ -88,7 +88,7 @@ do
         109)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : 9"
-	if [ "$temp" != $'109' ] ;
+	if (( $temp != 109 )) ;
 	then
 	payload+="9"
 	fi
@@ -96,7 +96,7 @@ do
         110)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : a"
-	if [ "$temp" != $'110'] ;
+	if (( $temp != 110 )) ;
 	then
 	payload+="a"
 	fi
@@ -104,7 +104,7 @@ do
         111)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : b"
-	if [ "$temp" != $'111' ] ;
+	if (( $temp != 111 )) ;
 	then
 	payload+="b"
 	fi
@@ -112,7 +112,7 @@ do
         112)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : c"
-	if [ "$temp" != $'112' ] ;
+	if (( $temp != 112 )) ;
 	then
 	payload+="c"
 	fi
@@ -120,7 +120,7 @@ do
         113)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : d"
-	if [ "$temp" != $'113' ] ;
+	if (( $temp != 113 )) ;
 	then
 	payload+="d"
 	fi
@@ -128,7 +128,7 @@ do
         114)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : e"
-	if [ "$temp" != $'114' ] ;
+	if (( $temp != 114 )) ;
 	then
 	payload+="e"
 	fi
@@ -136,7 +136,7 @@ do
         115)
  tput setaf 2; 
        echo "[$Time]" "Dumped Byte via TTL : f"
-	if [ "$temp" != $'115' ] ;
+	if (( $temp != 115 )) ;
 	then
 	payload+="f"
 	fi
