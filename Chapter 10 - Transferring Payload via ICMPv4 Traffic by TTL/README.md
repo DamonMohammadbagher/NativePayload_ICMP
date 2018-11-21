@@ -20,7 +20,7 @@ step1 (Linux system A with IPv4 192.168.1.10) : ./NativePayload_ICMP.sh shtext â
 
 step2 (windows system B with IPv4 192.168.1.13) : ./NativePayload_ICMP.exe listen 192.168.1.10
 
-Description: with Step1 (system A) you will inject bytes for "text"  TTL Values , with Step2 on (system B) you can have this text via Send/Rec ICMPv4 Traffic (Ping Response) 
+Description: with Step1 (system A) you will inject bytes for "text" to TTL Values , with Step2 on (system B) you can have this text via Send/Rec ICMPv4 Traffic (Ping Response) 
 
 
 Using this Method via two Linux systems (Linux only)
